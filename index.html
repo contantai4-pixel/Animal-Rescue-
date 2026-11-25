@@ -1,0 +1,140 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal's Rescue 2.0 - Emergency Rescue Fund</title>
+    <!-- Tailwind CSS for responsive layout and utility styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f7f5;
+            color: #2c3e50;
+        }
+        .header-gradient {
+            background: linear-gradient(135deg, #1b5e20, #388e3c);
+        }
+        .progress-gradient {
+            background: linear-gradient(90deg, #ff9800, #4caf50);
+        }
+        .cta-orange {
+            background: linear-gradient(135deg, #ff9800, #f57c00);
+            box-shadow: 0 4px 12px rgba(255, 152, 0, 0.35);
+        }
+        .cta-green {
+            background: linear-gradient(135deg, #2e7d32, #1b5e20);
+            box-shadow: 0 4px 12px rgba(27, 94, 32, 0.3);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex justify-center items-start md:items-center p-3 md:p-7 bg-[#f4f7f5]">
+
+    <!-- Main Centered Card Container -->
+    <main class="w-full max-w-[500px] md:max-w-[640px] bg-white rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.08)] overflow-hidden text-center pb-6 mt-2 md:mt-0">
+        
+        <!-- Header Section -->
+        <header class="header-gradient text-white py-6 px-4">
+            <h1 class="text-2xl md:text-[26px] font-bold mb-1">Animal's Rescue 2.0</h1>
+            <p class="text-[13px] md:text-sm opacity-90">Rescuing &amp; caring for helpless souls</p>
+            <span class="inline-block bg-white/20 px-3 py-1 rounded-full text-[11px] font-semibold mt-2">
+                🛡️ Verified 501(c)(3) Partner
+            </span>
+        </header>
+
+        <!-- Body Content -->
+        <div class="p-4 md:px-7 md:py-6">
+            
+            <!-- Clickable Hero Rescue Image -->
+            <a href="https://asiafilm.org/4/d6eca41bc1c2a51310767ceb1dcdcbdb"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="block w-full rounded-xl overflow-hidden mb-4 bg-gray-100 group">
+                <img src="https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800"
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x450/1b5e20/ffffff?text=Emergency+Animal+Rescue';"
+                     alt="Emergency Rescue Operation"
+                     class="w-full h-auto max-h-[260px] md:max-h-[330px] object-cover block transition-transform duration-300 group-hover:scale-[1.02]">
+            </a>
+
+            <!-- Clickable Emergency Rescue Fund Goal Progress Section -->
+            <a href="https://asiafilm.org/4/d6eca41bc1c2a51310767ceb1dcdcbdb"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="block mb-4 p-2 rounded-xl hover:bg-[#f8faf9] transition-colors">
+                <div class="text-[13px] md:text-sm font-bold text-[#e65100] mb-1.5">
+                    🔥 Emergency Rescue Fund Goal
+                </div>
+                <div class="w-full h-3 bg-[#e0e0e0] rounded-lg overflow-hidden mb-1.5">
+                    <div class="progress-gradient h-full w-[85%] rounded-lg"></div>
+                </div>
+                <div class="flex justify-between text-[11.5px] md:text-xs text-[#666] font-semibold">
+                    <span>Raised: $4,250</span>
+                    <span>Goal: $5,000 (85%)</span>
+                </div>
+            </a>
+
+            <!-- Description Paragraph -->
+            <p class="text-[13.5px] md:text-[15px] leading-relaxed text-[#4a5568] mb-4">
+                Every single day, hundreds of stray and helpless animals face starvation, injuries, and disease. Your small action helps us provide life-saving medical care, shelter, and nutritious food today!
+            </p>
+
+            <!-- Primary Orange Gradient CTA Button -->
+            <a href="https://asiafilm.org/4/d6eca41bc1c2a51310767ceb1dcdcbdb"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="cta-orange block w-full py-3.5 px-4 text-white text-base md:text-[17px] font-bold rounded-full mb-4 transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.99]">
+                🚨 Support Emergency Rescue Now
+            </a>
+
+            <!-- 3-Column Grid of Clickable Cards -->
+            <div class="grid grid-cols-3 gap-2 md:gap-3 my-4">
+                <a href="https://asiafilm.org/4/d6eca41bc1c2a51310767ceb1dcdcbdb"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="bg-[#f8faf9] border border-[#e2e8f0] rounded-xl py-2.5 px-1.5 md:py-3.5 md:px-2 transition-all duration-200 hover:-translate-y-0.5 hover:border-[#388e3c]">
+                    <span class="text-xl md:text-2xl block mb-1">🐶</span>
+                    <h4 class="text-[11px] md:text-[12.5px] font-semibold text-[#2d3748]">Rescue Pets</h4>
+                    <span class="text-[10px] md:text-[11px] text-[#2e7d32] font-bold mt-1 block">Help Now →</span>
+                </a>
+
+                <a href="https://asiafilm.org/4/d6eca41bc1c2a51310767ceb1dcdcbdb"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="bg-[#f8faf9] border border-[#e2e8f0] rounded-xl py-2.5 px-1.5 md:py-3.5 md:px-2 transition-all duration-200 hover:-translate-y-0.5 hover:border-[#388e3c]">
+                    <span class="text-xl md:text-2xl block mb-1">🍲</span>
+                    <h4 class="text-[11px] md:text-[12.5px] font-semibold text-[#2d3748]">Feed Animals</h4>
+                    <span class="text-[10px] md:text-[11px] text-[#2e7d32] font-bold mt-1 block">Donate Food →</span>
+                </a>
+
+                <a href="https://asiafilm.org/4/d6eca41bc1c2a51310767ceb1dcdcbdb"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="bg-[#f8faf9] border border-[#e2e8f0] rounded-xl py-2.5 px-1.5 md:py-3.5 md:px-2 transition-all duration-200 hover:-translate-y-0.5 hover:border-[#388e3c]">
+                    <span class="text-xl md:text-2xl block mb-1">🩺</span>
+                    <h4 class="text-[11px] md:text-[12.5px] font-semibold text-[#2d3748]">Medical Care</h4>
+                    <span class="text-[10px] md:text-[11px] text-[#2e7d32] font-bold mt-1 block">Provide Care →</span>
+                </a>
+            </div>
+
+            <!-- Secondary Green Gradient CTA Button -->
+            <a href="https://asiafilm.org/4/d6eca41bc1c2a51310767ceb1dcdcbdb"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="cta-green block w-full py-3.5 px-4 text-white text-base md:text-[17px] font-bold rounded-full mb-3 transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.99]">
+                🐾 Save a Rescue Animal Today
+            </a>
+
+            <!-- Footer Note -->
+            <p class="text-[11px] md:text-xs text-[#888] mt-2.5">
+                🔒 SSL Encrypted • Verified Rescue Support
+            </p>
+        </div>
+    </main>
+
+</body>
+</html>
+```
